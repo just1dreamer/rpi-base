@@ -1,0 +1,16 @@
+Open Terminal and the basic start:
+  -sudo apt update
+  -sudo apt upgrade
+Iam using mariadb-server
+  -sudo apt install mariadb-server
+Start to configure the server:
+  -sudo mariadb-secure-installation
+This will start a script to setup the server root account. 
+ 1.First ask for the root passwd but its not setted so leave it blank.
+ 2.If u type "n" in then u can add a root password to the dbServer, otherwise the server using the OS authentications.
+ 3.U can change root passwd. "l34v3m34l0n3"
+ 4.U can remove Anonymus user from the server
+ 5.Disallow root login remotely, but u can still login when u use ssh terminal to Rpi
+ 6.Test is an open database u can remove it
+ 7.Reload privilege table and u finished
+
