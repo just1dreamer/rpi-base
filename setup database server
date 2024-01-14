@@ -13,4 +13,6 @@ This will start a script to setup the server root account.
  5.Disallow root login remotely, but u can still login when u use ssh terminal to Rpi
  6.Test is an open database u can remove it
  7.Reload privilege table and u finished
-
+Create a secure user to access database from software connection
+  -sudo mariadb
+  -CREATE USER 'username'@'%' IDENTIFIED BY 'password'; //The '%' means that access possible from every way (IP address)
