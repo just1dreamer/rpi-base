@@ -17,4 +17,4 @@ Create a secure user to access database from software connection
   -sudo mariadb
   -CREATE USER 'username'@'%' IDENTIFIED BY 'password'; //The '%' means that access possible from every way (IP address)
  "CREATE USER 'rem_acc'@'%' IDENTIFIED BY 'remotacc';"
-"CREATE USER 'rem_acc'@'localhost' IDENTIFIED BY 'remoteacc';"
+
