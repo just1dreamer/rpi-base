@@ -1,6 +1,6 @@
 when we create a user it has no privileges yet, so we grant.
-make a plant what the user need.
-my user is for connecting a program to the database, so i need only "SELECT" "INSERT INTO" "UPDATE"
+make a plan what the user need.
+my user is fro connecting the program to the database, so i need only "SELECT" "INSERT INTO" "UPDATE"
 if something is wrong i can log in with a root user and delete ("ALTER")
 
 we connect the user privileges to a table, so we need one, and a database that can store the table.
